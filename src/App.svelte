@@ -16,7 +16,7 @@
 		color:black;
 		size:20px;
 	}
-	div{
+	:global(div){
 		border:'solid' 0.5em black;
 		padding: 1em;
 	}
