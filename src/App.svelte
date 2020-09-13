@@ -1,4 +1,6 @@
 <script>
+	import Navigation from './Navigation.svelte';
+
 	let title = "Taufik";
 	setTimeout(()=>{
 		title = "Rubah"
@@ -6,7 +8,7 @@
 </script>
 
 <h1>{title}</h1>
-
+<Navigation />
 <style>
 	h1{
 		color:black;
