@@ -6,6 +6,7 @@
 
 <style>
 	h1{
-		color:red
+		color:black;
+		size:20px;
 	}
 </style>
