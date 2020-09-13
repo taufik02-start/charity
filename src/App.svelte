@@ -1,5 +1,8 @@
 <script>
 	let title = "Taufik";
+	setTimeout(()=>{
+		title = "Rubah"
+	},2000);
 </script>
 
 <h1>{title}</h1>
