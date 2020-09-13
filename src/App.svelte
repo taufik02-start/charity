@@ -21,3 +21,6 @@
 		padding: 1em;
 	}
 </style>
+<svelte:head>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/kimeiga/bahunya/css/bahunya-0.1.3.css" />
+</svelte:head>
