@@ -1,3 +1,4 @@
 <script>
-	import Home from '.pages/home.svelte'
+	import Home from './pages/home.svelte'
 </script>
+<Home />
