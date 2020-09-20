@@ -2,6 +2,7 @@
     import Header from '../components/Header.svelte'
     import Footer from '../components/Footer.svelte'
     import {data} from "../data/data.js"
+    import {onMount} from 'svelte';
 
     export let params;
     let data2;
@@ -12,7 +13,10 @@
       })
     }
 
-    data2 = getCharity(params.id);
+    onMount(()=>{
+      data2 = getCharity(params.id);
+    })
+    
 </script>
 <Header />
 <!-- welcome section -->
